@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	font-size:105%;
+}
+
+header
+{
+	background-image:url(../bg1.jpg);
+	height:100%;
+	width:100%;
+	background-size:cover;
+	background-position:center;
+	
+	
+}
+
+nav
+{
+	width:100%;
+	height:100px;
+	background-color:black;
+	line-height:3px;
+}
+
+ nav ul 
+{
+	float:right;
+	list-style-type:none;
+	margin-top:48px;
+	margin-right:25px;
+}
+
+ nav ul li
+{
+	display: inline-block;
+}
+
+ nav ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	padding: 20px;
+	transition: 0.7s ease;
+
+}
+ nav ul li a:hover
+{
+	background-color:#fff;
+	color:#000;
+}
+
+.logo img
+{
+ top-margin:2px;
+float:left;
+width:280px;
+margin-top:14px;
+margin-left:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

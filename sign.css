@@ -1,0 +1,151 @@
+body
+{
+	margin:0;
+	padding:0;
+	
+	background-size:100% 100%;
+	font-family:sans-serif;
+	height:100%;
+	width:100%;
+}
+
+.b
+{
+	margin:0;
+	padding:0;
+	background:url("14.jpg");
+	background-size:cover;
+	background-position:center;
+	object-fit:cover;
+	
+	font-family:sans-serif;
+	
+}
+
+
+h2
+{	margin:0;
+	padding:0,0,20px;
+	color:white;
+	text-align:center;
+}
+
+
+
+
+.signup_box
+{
+	top:5%;
+	position: relative;
+	margin: 5% auto;
+	height: 450px;
+	width:700px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.8)
+	border-radius:30px;
+
+}
+.left_box
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 70px 40px;
+	width: 350px;
+	height: 450px;
+	background:rgba(0,0,0,0.8);
+	border-radius: 30px;
+	
+}
+
+
+.left_box input[type="text"], .left_box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:white;
+	font-size:16px;
+	margin-bottom: 20px;
+}
+
+.left_box input[type="submit"]
+{
+	margin-bottom: 28px;
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	background:#668cff;
+	cursor:printer;
+	border-radius:20px;
+	width: 250px;
+
+}
+
+.left_box input[type="submit"]:hover,
+.left_box input[type="submit"]:focus
+{
+	background: #008000;
+	transition: 0.2s ease;
+}
+
+.right_box
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 80px 40px;
+	width: 350px;
+	height: 450px;
+	background:rgba(0,0,0,0.8)
+	background-size: cover;
+	background-position: center;
+	border-radius:30px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+	margin-bottom: 20px;
+	background:rgba(211,211,211);
+}
+
+.right_box .signinwith
+{
+	display: block;
+	margin-bottom: 40px;
+	font-size: 24px;
+	color:black;
+	text-align: center;
+	font-weight:bold;
+	
+}
+
+button.social
+{
+	margin-bottom: 20px;
+	width: 270px;
+	height:	45px;
+	border: none;
+	border-radius:30px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+.facebook
+{
+ background: #f4a7b3;
+}
+
+.twitter
+{
+ background: #f4a7b3;
+}
+
+.instagram
+{
+ background: #f4a7b3;
+}
